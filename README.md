@@ -2,6 +2,14 @@
 
 In this project, I aimed to scrape details of registered real estate projects from the HPRERA Public Dashboard. The details sought included the promoter's name, PAN number, permanent address, and GSTIN number, all displayed in a popup upon clicking the RERA number link. Here's a comprehensive step-by-step breakdown of the approach I took to tackle the situation:
 
+
+REQUIREMENTS
+
+SELENIUM  "pip install selenium"
+
+WEB-DRIVER MANAGER "pip install webdriver-manager"
+
+
  1. Understanding the Target Website and Data Structure
 
 - Website Analysis: I started by examining the [HPRERA Public Dashboard](https://hprera.nic.in/PublicDashboard) to identify how the project information is structured. I found that the details are displayed in a modal popup when the RERA number links are clicked.
